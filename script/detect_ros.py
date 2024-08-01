@@ -43,7 +43,7 @@ class Detect():
         annotated_frame = results[0].plot()
 
         # Display the annotated frame
-        cv2.imshow("YOLOv8 Prediction", annotated_frame)
+        #cv2.imshow("YOLOv8 Prediction", annotated_frame)
 
 if __name__ == "__main__":
     detect = Detect()
@@ -53,10 +53,10 @@ if __name__ == "__main__":
         detect.object_detect()
         
         # Break the loop if 'q' is pressed
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        #if cv2.waitKey(1) & 0xFF == ord('q'):
+            #break
 
         rate.sleep()
     
     # Release the video capture object and close the display window
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
