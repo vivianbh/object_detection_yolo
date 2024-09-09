@@ -1,0 +1,12 @@
+names:
+- car
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: yolo_car-2jlzx
+  url: https://universe.roboflow.com/chiao-tung-university/yolo_car-2jlzx/dataset/1
+  version: 1
+  workspace: chiao-tung-university
+test: ../test/images
+train: yolo_car-1/train/images
+val: yolo_car-1/valid/images
